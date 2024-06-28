@@ -1,0 +1,42 @@
+<header class="border-bottom">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand"
+         routerLink="/">
+        <figure>
+          <img class="qe-logo img-fluid rounded"
+               loading="lazy"
+               src="images/qe-logo.png"
+               title="Quantum Edge Labs Logo">
+        </figure>
+      </a>
+      <button class="navbar-toggler"
+              type="button"
+              (click)="toggleCollapseMenu()"
+              title="Navbar Collapse">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse"
+           [(ngbCollapse)]="isCollapsedMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"
+               routerLink="/"
+               routerLinkActive="active"
+               [routerLinkActiveOptions]="{ exact: true }">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               routerLink="/about-us"
+               routerLinkActive="active">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               routerLink="/contact-us"
+               routerLinkActive="active">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,46 @@
+@import "bootstrap/scss/bootstrap";
+:root {
+  --color-scheme: light;
+  --font-family: system-ui;
+
+  --fs-500: clamp(1.13rem, calc(1.06rem + 0.33vw), 1.31rem);
+
+  --clr-white-rgba3: rgba(255, 255, 0, 0.3);
+  --clr-white-300: hsl(0, 0%, 70%);
+  --clr-white-400: hsl(0, 0%, 90%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-dark: hsl(0, 0%, 0%);
+  --clr-red: hsl(0, 100%, 50%);
+  --clr-primary-400: rgb(24, 112, 180);
+  --clr-primary-500: hsl(206, 95%, 31%);
+  --clr-primary-600: hsl(206, 99%, 20%);
+  --clr-primary-700: hsl(206, 100%, 10%);
+  --clr-secondary-400: hsl(94, 50%, 50%);
+  --clr-secondary-500: hsl(95, 50%, 43%);
+  --clr-secondary-600: hsl(94, 50%, 25%);
+  --clr-accent-400: hsl(21, 72%, 50%);
+  --clr-accent-500: hsl(21, 100%, 50%);
+  --clr-accent-600: hsl(21, 100%, 30%);
+  --bg-primary-100: hsl(206, 77%, 95%);
+  --bg-primary-500: hsl(206, 77%, 47%);
+  --bg-primary-600: hsl(206, 77%, 37%);
+  --bg-primary-700: hsl(206, 77%, 27%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: var(--color-scheme);
+  font-size: 16px;
+}
+
+body {
+  background: var(--clr-white);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+  scroll-behavior: smooth;
+}

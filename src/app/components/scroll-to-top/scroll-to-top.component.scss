@@ -1,0 +1,36 @@
+:host {
+  position: fixed;
+  float: right;
+  cursor: pointer;
+  right: 14px;
+  bottom: 14px;
+  z-index: 100;
+  opacity: 0.75;
+  padding: 0;
+  margin: 0;
+}
+
+:host:hover {
+  opacity: 1;
+}
+
+.scroll-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: var(--clr-primary-500);
+  color: var(--clr-white);
+  font-size: 0.5rem;
+}
+.triangle-up {
+  position: relative;
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-right: 0.5em solid var(--clr-white);
+  border-top: 0.5em solid var(--clr-white);
+  transform: rotate(-45deg);
+}
