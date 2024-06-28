@@ -1,6 +1,6 @@
 # Angular Starter Template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+This starter template was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
 
 ## Dependencies
 
@@ -12,13 +12,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - title strategy enabled
 - meta tag enabled
 - ssr enabled
-- scroll to top button
 - pages (placeholders for home, about us and contact us)
 - layout
   - header with menu and logo
   - footer
   - page title component with signal
+  - scroll to top button
 
 ## ToDo
 
 - enable translation
+- enable ngrx store
